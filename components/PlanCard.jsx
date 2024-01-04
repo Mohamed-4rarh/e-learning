@@ -41,7 +41,7 @@ export default function PlanCard({planeName, price, details, path}) {
             </ul>
         </div>
         <Link
-            href={path}
+            href={'/'}
             className='font-meduim text-[14px] lg:text-[18px] flex text-center justify-center bg-main-orange text-[#fff] rounded-b-lg py-4 lg:py-5 px-6'
         >
             Get Started

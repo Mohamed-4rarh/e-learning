@@ -41,7 +41,7 @@ export default function CourseCard({img, duration, level, creator, title, descri
             className='text-paragraph-color text-[14px] sm:text-[16px] md:text-[18px] mt-[10px] sm:mt-[12px] md:mt-[14px] lg:mt-[16px] '
         >{description}</p>
         <Link
-            href={path}
+            href={'/'}
             className='bg-button-gray font-semibold rounded-lg border border-border flex justify-center py-[14px] px-[24px] sm:py-[16px] md:py-[18px] text-[14px] sm:text-[16px] md:text-[18px] mt-[24px] md:mt-[30px]'
         >
             Get it Now
