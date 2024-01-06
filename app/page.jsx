@@ -11,15 +11,12 @@ import Testimonials from '@/pages/home/Testimonials'
 export default function Home() {
   return(
     <>
-      <Panner />
-      <Navbar />
       <Hero />
       <Benefits />
       <Courses />
       <Testimonials />
       <Pricing />
       <FAQ />
-      <Footer />
     </>
   )
 }
