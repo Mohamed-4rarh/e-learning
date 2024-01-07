@@ -13,7 +13,7 @@ export default function CustomHero({header, description}) {
             </div>
             <div className='flex-1 min-w-[300px]'>
                 <p
-                    className='text-paragraph-color font-medium text-[14px] md:text-[16px] lg:text-[18px]'
+                    className='text-paragraph-color text-[14px] md:text-[16px] lg:text-[18px]'
                 >
                     {description}
                 </p>

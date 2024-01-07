@@ -17,8 +17,8 @@
     .wrapper {
         @apply max-w-[1600px] mx-auto
     }
-    .image-clamp {
-        width: clamp(300px, 50vw, 700px);
+    .margins {
+        @apply mt-[50px] md:mt-[70px] lg:mt-[100px]
     }
     .section-container {
         @apply mt-[50px] sm:mt-[75px] md:mt-[100px] lg:mt-[150px]
@@ -37,6 +37,11 @@
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(clamp(270px, 30vw, 780px), 1fr));
         gap: 30px;
+    }
+    .achiev-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(clamp(300px, 40vw, 780px), 1fr));
+        gap: 20px;
     }
 }
 

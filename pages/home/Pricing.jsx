@@ -7,7 +7,7 @@ export default function Pricing() {
   return (
     <section className="section-container wrapper">
         <HeadTitle 
-            path={'/'}
+            path={'/pricing'}
             title={'Our Pricing'}
             description={'Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.'}
         />

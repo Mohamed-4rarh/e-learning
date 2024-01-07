@@ -8,7 +8,6 @@ export default function Testimonials() {
     <section className="section-container wrapper">
         <HeadTitle 
             title={'Our Testimonials'}
-            path={'/'}
             description={'Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.'}
         />
         <div className='mt-[60px] courses-grid'>
