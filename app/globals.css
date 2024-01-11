@@ -14,30 +14,45 @@
     ::-webkit-scrollbar-thumb {
     background: #FFB641; /* Set the color of the thumb (the draggable part of the scrollbar) */
     }
+
     .wrapper {
         @apply max-w-[1600px] mx-auto
     }
+
     .margins {
         @apply mt-[50px] md:mt-[70px] lg:mt-[100px]
     }
+
     .section-container {
         @apply mt-[50px] sm:mt-[75px] md:mt-[100px] lg:mt-[150px]
     }
+
+    .form-input {
+        @apply rounded-lg border border-border bg-[#fcfcfd] p-5
+    }
+
+    .form-wrapper {
+        @apply bg-[#fff] rounded-lg border border-border p-[30px] xl:p-[50px] 2xl:p-[80px] margins mb-[50px] md:mb-[70px] lg:mb-[100px]
+    }
+
     .benefits-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(clamp(300px, 30vw, 520px), 1fr));
         gap: 20px;
     }
+
     .courses-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(clamp(310px, 40vw, 780px), 1fr));
         gap: 20px;
     }
+
     .plans-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(clamp(270px, 30vw, 780px), 1fr));
         gap: 30px;
     }
+
     .achiev-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(clamp(300px, 40vw, 780px), 1fr));
