@@ -1,6 +1,6 @@
 import CustomHero from '@/components/CustomHero'
-import Achievements from '@/pages/aboutUs/Achievements'
-import OurGoals from '@/pages/aboutUs/OurGoals'
+import Achievements from '@/containers/Achievements'
+import OurGoals from '@/containers/OurGoals'
 import React from 'react'
 
 export default function page() {

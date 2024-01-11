@@ -1,6 +1,6 @@
 import CustomHero from '@/components/CustomHero'
-import FAQ from '@/pages/home/FAQ'
-import Pricing from '@/pages/home/Pricing'
+import FAQ from '@/containers/FAQ'
+import Pricing from '@/containers/Pricing'
 import React from 'react'
 
 export default function page() {

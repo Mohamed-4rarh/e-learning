@@ -1,12 +1,9 @@
-import Footer from '@/components/Footer'
-import Navbar from '@/components/Navbar'
-import Panner from '@/components/Panner'
-import Benefits from '@/pages/home/Benefits'
-import Courses from '@/pages/home/Courses'
-import FAQ from '@/pages/home/FAQ'
-import Hero from '@/pages/home/Hero'
-import Pricing from '@/pages/home/Pricing'
-import Testimonials from '@/pages/home/Testimonials'
+import Benefits from '@/containers/Benefits'
+import Courses from '@/containers/Courses'
+import FAQ from '@/containers/FAQ'
+import Hero from '@/containers/Hero'
+import Pricing from '@/containers/Pricing'
+import Testimonials from '@/containers/Testimonials'
 
 export default function Home() {
   return(
